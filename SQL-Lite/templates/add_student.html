@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .btn{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    
+
+   <h2>Enter Student Details</h2>
+    <form action='/savestudent' method="post">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td> <input type="text" name="studname" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text" name="studaddr" id="" placeholder="address"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><input type="text" name="studcity" id="" placeholder="city"></td>
+            </tr>
+            <tr>
+                <td>PIN</td>
+                <td><input type="text" name="studpin" placeholder="PIN"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Go" class="btn">
+    </form>
+
+</body>
+</html>

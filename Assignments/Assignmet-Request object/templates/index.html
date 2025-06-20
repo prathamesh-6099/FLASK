@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palindrome Checker</title>
+    <style>
+       .head{
+            text-align: center;
+            margin: 2rem;
+            font-size: 3rerm;
+            color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div{
+            text-align: center;
+            font-size: 3rem;
+            text-shadow: 0ch;
+            font-weight: 300;
+            
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">Palindrome Checker</div>
+    <form method="POST">
+        <label>Enter your name:</label>
+        <input type="text" name="username" required>
+        <input type="submit" value="Check">
+    </form>
+<div class="result">
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+</div>
+</body>
+</html>
