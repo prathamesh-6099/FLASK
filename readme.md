@@ -34,5 +34,4 @@ This repository is structured with folders and files based on different topics a
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/flask-learning.git
-cd flask-learning
+git clone https://github.com/prathamesh-6099/FLASK.git
